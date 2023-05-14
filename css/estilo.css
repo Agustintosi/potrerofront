@@ -1,0 +1,32 @@
+body {background-color: pink ; font-size: 20px;}
+.naranja {color: orange;}
+
+h1{color: black;
+font-size: 80px;
+text-decoration: underline;
+font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+h2{color: rgb(92, 139, 6); font-size: 30px;
+text-decoration: underline;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+ #blanco{ color: azure;}
+
+ p{ color: aliceblue;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;}
+
+ a{ color: brown;
+ }
+
+ img{ width: 500px; height: 400px;}
+
+ iframe{ width: max-content;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 117, 24);
+}
