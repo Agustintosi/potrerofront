@@ -1,48 +1,116 @@
-body {background-image: url(../imagenes/fondo\ 3.jpeg)}
-.naranja {color: orange;
-    background-repeat: no-repeat ;
+body {
+    background-color: blanchedalmond;
+
+}
+
+
+
+.naranja {
+    color: orange;
+    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;}
-
-header{background-color: rgb(194, 194, 194);}
-nav{background-color: cyan;
-margin: 35px;
-padding: 10px;
-border: 5px solid white;}
-section{background-color: rgb(215, 250, 235);
-}
-aside{background-color: cyan;
-border: 5px solid white;}
-footer{background-color: orange;
-margin: 20px;
-border: 1px solid red;
+    background-attachment: fixed;
 }
 
-h1{color: black;
-font-size: 80px;
-text-decoration: underline;
-font-family: Arial, Helvetica, sans-serif;} 
+header {
 
-h2{color: rgb(211, 123, 7); font-size: 30px;
-text-decoration: underline;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    margin: 35px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+}
 
- #blanco{ color: azure;}
+header h1{font-family: 'Raleway', sans-serif; 
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
 
- p{ color: aliceblue;
-font-size: 30px;
-font-family: Arial, Helvetica, sans-serif;}
+header img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
 
- a{ color: brown;}
- li{
-color: black;
- }
+header h2 {
+    align-items: center;
+    justify-content: center;
+}
 
 
- img{ width: 500px; height: 400px;}
+section {
+    display: flex;
+    justify-content: space-between;
+}
 
- iframe{ width: max-content;}
 
-a{
+.estudio {
+    width: 280px;
+}
+
+img {
+    margin: 10px;
+    border: 3px solid rgb(167, 80, 80)
+}
+
+
+aside {
+    background-color: rgb(134, 134, 134);
+    border: 5px solid white;
+
+}
+
+aside ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    background-color: rgb(137, 137, 137);
+    margin: 12px;
+    border: 1px solid rgb(185, 56, 56);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#blanco {
+    color: azure;
+}
+
+p {
+    color: 235, 235, 235;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(3, 117, 24);}
+    background-color: #a7a6a6;
+}
+
+
+li {
+    color: black;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 117, 24);
+}
+
+section form{
+    display: flex; 
+    justify-content: center;
+}
