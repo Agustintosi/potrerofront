@@ -20,6 +20,68 @@ header {
     justify-content: space-between;
 }
 
+.contenedormapa {
+    display: flex;
+    flex-direction: row;    
+}
+
+
+
+@media (max-width : 700px){
+    .header{
+        color:rgb(185, 56, 56);
+        background-color: bisque;
+        font-size: 30px ;
+    }
+
+    .contenedorestudio {
+        width: 100%;
+        height: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.contenedoropciones{
+
+    width: 80%;
+    background-color: rgb(85, 56, 56);
+    font-size: 30px;
+    margin: 20px;
+}
+
+#blanco{
+    display: flex;
+    flex-direction: column;
+
+}
+.contenedormapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 800px;
+    margin: 20px;
+
+}
+.contenedorusuario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.contenedorestudio img{
+    width: 90%;
+    margin: 20px;
+}
+
+}
+
+
+
+
+
+
 header h1{font-family: 'Raleway', sans-serif; 
     font-size: 50px;
     text-decoration: underline;
@@ -53,12 +115,15 @@ img {
     border: 3px solid rgb(167, 80, 80)
 }
 
-
 aside {
     background-color: rgb(134, 134, 134);
     border: 5px solid white;
 
 }
+
+
+
+
 
 aside ul{
     display: flex;
@@ -98,6 +163,8 @@ p {
 li {
     color: black;
 }
+
+
 
 
 div {
